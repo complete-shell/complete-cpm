@@ -1,0 +1,39 @@
+CompleteShell v0.2
+
+N cpm v0.0.1 ..'A fast CPAN module installer'
+
+C install
+
+  O --workers =int             ..'Number of workers, default: 5'
+  O --local-lib-contained =dir ..'Directory to install modules into, default: local/'
+  O --global                   ..'Install modules into current @INC instead of local/'
+  O --verbose                  ..'Verbose mode; you can see what is going on'
+  O --prebuilt                 ..'Save builds for CPAN distributions'
+  O --no-prebuilt              ..'Save builds for CPAN distributions'
+  O --target-perl =version     ..'Install modules as if version is your perl is VERSION'
+  O --mirror =url              ..'Base url for the CPAN mirror to use'
+  O --pp                       ..'Prefer pureperl only build'
+  O --pureperl-only            ..'Prefer pureperl only build'
+  O --static-install           ..'Enable the static install, default: enable'
+  O --no-static-install        ..'Disable the static install, default: enable'
+  O --resolver =class-args     ..'Specify resolvers'
+  O --reinstall                ..'Reinstall the distribution'
+  O --dev                      ..'Resolve TRIAL distributions too'
+  O --color                    ..'Turn on color output, default: on'
+  O --no-color                 ..'Turn off color output, default: on'
+  O --test                     ..'Run test cases, default: no'
+  O --no-test                  ..'Do not run test cases, default: no'
+  O --man-pages                ..'Generate man pages'
+  O --retry                    ..'Retry configure/build/test/install if fails'
+  O --no-retry                 ..'Do not retry configure/build/test/install if fails'
+  O --configure-timeout =int   ..'Specify configure timeout second'
+  O --build-timeout =int       ..'Specify build timeout second'
+  O --test-timeout =int        ..'Specify test timeout second'
+  O --show-progress            ..'Show progress, default: on'
+  O --no-show-progress         ..'Do not show progress, default: on'
+  O --cpanfile =file           ..'Specify cpanfile path, default: ./cpanfile'
+  O --snapshot =file           ..'Specify cpanfile.snapshot path'
+  O --version                  ..'Show version'
+  O --help                     ..'Show this help'
+
+  A +cpan-module...
