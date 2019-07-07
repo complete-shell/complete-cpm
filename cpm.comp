@@ -1,6 +1,7 @@
 CompleteShell v0.2
 
 N cpm v0.0.1 ..'A fast CPAN module installer'
+M tags perl perl5 cpan
 
 C install
 
