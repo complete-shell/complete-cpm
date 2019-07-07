@@ -1,4 +1,4 @@
-complete-template
-=================
+complete-cpm
+============
 
-This is the complete-shell compdef package for the TEMPLATE command.
+This is the complete-shell compdef package for the `cpm` command.
